@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    background-color: rgba(6, 253, 240, 0.892); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.card:hover {
+    background-color: hwb(192 84% 14% / 0.471); /* Fully opaque background on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
